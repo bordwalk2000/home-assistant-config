@@ -1,0 +1,20 @@
+# Generic ignores
+*.log
+*.db
+
+# Directory (contents) ignores
+config/.cloud
+config/.storage
+config/deps
+
+# Specific file ignores
+config/known_devices.yaml
+config/secrets.yaml
+CODE_OF_CONDUCT.md
+
+# Ignore files created by IDE's
+.vscode
+.Trash*
+
+# Specific keeps
+!.gitkeep

@@ -1,0 +1,13 @@
+---
+# This is the holiday sensor. This binary sensor tells me if it is
+# a national holiday today.
+#
+# https://www.home-assistant.io/integrations/workday/
+#
+platform: workday
+name: holiday
+country: US
+province: MO
+workdays:
+  - holiday
+excludes: []

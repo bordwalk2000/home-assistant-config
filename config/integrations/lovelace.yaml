@@ -1,0 +1,19 @@
+---
+# Lovelace component for configuring the UI.
+#
+# This way, my main dashboard is controlled via the UI. This covers my main
+# needs for the house quick and easy, while I slowly learn more about the
+# purely YAML versions.
+#
+# Maybe somewhere in the future I can replace the storage managed dashboards
+# with a YAML version, or, dunno, replace everything with storage versions.
+#
+# https://www.home-assistant.io/lovelace/
+# https://www.home-assistant.io/lovelace/dashboards-and-views
+#
+lovelace:
+  # This is the default storage mode. My main Lovelace dashboard is UI managed.
+  mode: storage
+
+  # Additional YAML-based Lovelace dashboards
+  dashboards: !include ../lovelace/dashboards.yaml
